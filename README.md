@@ -5,6 +5,6 @@
 ## Repository Structure
 
 - experimental_env/: Contains the testing environment used during experimentation, including:
-- An SQL database storing results of all experiments
 - prod_env/: A production-ready screening tool, adapted from the experimental environment for easier deployment and use.
-- Analysis/ Includes a Jupyter notebook that explores, analyzes, and visualizes experimental results, highlighting key insights.
+- Analysis/ Includes  An SQL database storing results of all experiments and a Jupyter notebook that explores, analyzes, and visualizes experimental results, highlighting key insights.
+- PDF: Academic paper based on the this work submitted to Humboldt University on SoSe'25
