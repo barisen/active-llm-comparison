@@ -1,11 +1,10 @@
-# APA Project 8 – Summer Semester 2025 (Humboldt)
+# Project: Systematic Literature Screening Automation Benchmark: LLM + Active Learning
 
-This repository is for submitting project number 8 of the APA seminar, summer semester 2025, at Humboldt University.
+- This repository contains experiments and tools for comparing Active Learning (AL) and Large Language Model (LLM) approaches to systematic literature review (SLR) screening. The project benchmarks multiple models (LLMs, traditional ML, and AL strategies) on biomedical datasets, analyzing trade-offs between recall, precision, and efficiency.
 
-- The code for the **testing environment** is found in the `experimental_env` folder. Inside, you will also find:
+## Repository Structure
 
-  - A Jupyter notebook demonstrating the experimental set-up
-  - An SQL database containing the data of all our experiments
-
-- The `prod_env` folder contains a **production-ready tool** based on the tool used in the experimental phase.
-- The `analysis` folder contains the **analysis** Jupyter notebook file exploring, analyzing and drawing insights from our experimental results.
+- experimental_env/: Contains the testing environment used during experimentation, including:
+- An SQL database storing results of all experiments
+- prod_env/: A production-ready screening tool, adapted from the experimental environment for easier deployment and use.
+- Analysis/ Includes a Jupyter notebook that explores, analyzes, and visualizes experimental results, highlighting key insights.
